@@ -10,9 +10,7 @@ The attacker leaves a compromised USB flash drive in a public area, such as a wa
 
 An unsuspecting user finds the USB flash drive and, believing he has found a lost item, decides to insert it into his computer to try to trace it back to its owner. The USB flash drive contains malicious code that is automatically executed as soon as the device is plugged in.
 
-<img src="https://i.giphy.com/LRru2LfMfWk935HEqC.gif">
-
-![](https://i.giphy.com/LRru2LfMfWk935HEqC.gif)
+![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/badusb.gif?raw=true)
 
 The malicious code could be designed to perform a number of malicious operations, such as:
 - Install malware on the computer to steal data or control the system
