@@ -1,4 +1,4 @@
-# Intro to BadUSB-Leonarduino Project
+# Intro to BadArduino Project
 This project aims to transform an Arduino board into a "BadUSB" to demonstrate how cyber criminals use this hardware to conduct Social Engineering attacks to compromise victims' devices. 
 The result of this work can be useful as instrumentation for Red Teaming or Physical Intrusion activities to test a company's security.
 
