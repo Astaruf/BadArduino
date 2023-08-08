@@ -23,18 +23,18 @@ Arduino Leonardo Nano can be easily hidden into an external hard disk case. For 
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/teardown.gif?raw=true)
 
-# Use Cases
-## Baiting: The Art of USB Drive Attacks
+# Use Case
+## Baiting: Social Engineering and BadUSB Attack
 Baiting is a [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) cyber attack that exploits people's natural curiosity to lure them into digital traps. In a BadUSB attack, cybercriminals use compromised or fake memory devices, such as USB flash drives, that are left in strategic locations to lure victims. Once a hapless person finds and inserts the infected flash drive into their device, the malicious code contained within is activated, allowing them to gain full control of the device itself and its data.
 
-### 1st Step: Cast The Bait
+### 1: Cast The Bait
 Many of you will remember Darlene Alderson, Elliot's younger sister in the famous Mr. Robot series, a malware coder and member of the hacker group fsociety. Although it is only a series, it still gives us a glimpse of how such an attack might be conducted.
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/attacker.gif?raw=true)
 
 The technique is quite simple. The malicious device, suitably disguised by the cybercriminal, is left unattended in a strategic location near or within the target company, where it is likely to be noticed by one or more employees, piquing their interest and prompting them to explore its contents on the private or corporate computer.
 
-### 2nd Step: Wait for The Fish
+### Step 2: Hooking The Fish
 An unsuspecting user finds the USB flash drive and, believing he has found a lost item, decides to insert it into his computer to try to trace it back to its owner. The USB flash drive contains malicious code that is automatically executed as soon as the device is plugged in.
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/victim.gif?raw=true)
