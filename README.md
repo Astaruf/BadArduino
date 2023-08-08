@@ -10,7 +10,7 @@ Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/A
 <img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="500" />
 
 Arduino Leonardo Nano, for example, is well suited for this project because of the following features:
-* can be used as [HID](https://en.wikipedia.org/wiki/Human_interface_device) - Human Interface Device and supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
+* is a **Human Interface Device** ([HID](https://en.wikipedia.org/wiki/Human_interface_device)) which supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
 * is **extremely small**, can be hidden easily in a SSD or NVMe case (for fake external hard drive)
 * is also available in **USB Type-C** version, which is more common on next-generation mass storage devices
 * is **really inexpensive**, can be found for a few euros on online stores
