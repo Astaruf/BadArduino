@@ -12,6 +12,8 @@ Arduino Leonardo Nano, for example, is well suited for this project because of t
 * is also available in **USB Type-C** version, which is more common on next-generation mass storage devices
 * is **really inexpensive**, can be found for a few euros on online stores
 
+![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png?raw=true)
+
 ## Configuration - TODO
 The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via [Arduino IDE](https://www.arduino.cc/en/software).
 
