@@ -19,7 +19,7 @@ The attacker leaves a malicious USB flash drive in a public area, such as a wait
 ### 2nd Step: Wait for The Fish
 An unsuspecting user finds the USB flash drive and, believing he has found a lost item, decides to insert it into his computer to try to trace it back to its owner. The USB flash drive contains malicious code that is automatically executed as soon as the device is plugged in.
 
-![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/fish.gif?raw=true)
+![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/victim.gif?raw=true)
 
 Generally, attackers tend to use the malicious code as an initial access or dropper of other code doing so silently, bypassing any antivirus, trying to scale privileges or gain persistence within the system. The actions that a BadUSB can perform are innumerable, the only limitation being the imagination of those who developed the code.
 
