@@ -18,15 +18,17 @@ Arduino Leonardo Nano, for example, is well suited for this project because of t
 ## Configuration - TODO
 The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via [Arduino IDE](https://www.arduino.cc/en/software).
 
-## Optional: Masking he Deception - TODO
-Show external cases
+## Optional: Masking the Deception - TODO
+Arduino Leonardo Nano can be easily hidden into an external hard disk case. For example, SanDisk made a great job in terms of design and the semplicity of teardown makes the game easier:
+
+![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/teardown.gif?raw=true)
 
 # Use Cases
 ## Baiting: The Art of USB Drive Attacks
 Baiting is a [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) cyber attack that exploits people's natural curiosity to lure them into digital traps. In a BadUSB attack, cybercriminals use compromised or fake memory devices, such as USB flash drives, that are left in strategic locations to lure victims. Once a hapless person finds and inserts the infected flash drive into their device, the malicious code contained within is activated, allowing them to gain full control of the device itself and its data.
 
 ### 1st Step: Cast The Bait
-Many of you will remember Darlene Alderson, Elliot's younger sister in the famous Mr. Robot series, a malware coder and member of the hacker group fsociety. Although it is only one series, it still gives us a glimpse of how such an attack might be conducted.
+Many of you will remember Darlene Alderson, Elliot's younger sister in the famous Mr. Robot series, a malware coder and member of the hacker group fsociety. Although it is only a series, it still gives us a glimpse of how such an attack might be conducted.
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/attacker.gif?raw=true)
 
@@ -42,6 +44,6 @@ Generally, attackers tend to use the malicious code as an initial access or drop
 # Mitigations: Never Rely on Appearances
 In 2023, it might be surprising that some people still fall for connecting a sketchy USB drive to their computer. However, the truth is, despite fancy tech, people still make mistakes. But there's more to it. The danger gets sneakier with the ability to hide stuff like Arduino, making it seem cooler than a regular USB drive.
 
-Imagine this: you find an outside hard drive cover, maybe a slick 2TB Samsung one, looking all innocent and tempting. In a world where looks and size can trick you, who wouldn't want to take such a cool "tech treasure" home? Here's the catch: there's an Arduino inside that seems harmless. Once at home, the appeal could get too much, and the urge to plug it into your device could be stronger than thinking twice.
+Imagine this: you find an outside hard drive cover, maybe a slick SanDisk one, looking all innocent and tempting. In a world where looks and size can trick you, who wouldn't want to take such a cool "tech treasure" home? Here's the catch: there's an Arduino inside that seems harmless. Once at home, the appeal could get too much, and the urge to plug it into your device could be stronger than thinking twice.
 
 I dare anyone not to feel curious about this. It's tough to say no, even when it seems like tech has gotten super smart. The lesson is that, even with smarts and being careful, human curiosity can still beat everything. It's a reminder that the digital world, while getting better fast, can't escape human mistakes and how things look.
