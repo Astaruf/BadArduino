@@ -1,18 +1,19 @@
 # Intro to BadUSB-Leonarduino Project
-This project aims to transform an Arduino board into a "BadUSB" to demonstrate how cyber criminals use this hardware to conduct Social Engineering attacks to compromise victims' devices.
+This project aims to transform an Arduino board into a "BadUSB" to demonstrate how cyber criminals use this hardware to conduct Social Engineering attacks to compromise victims' devices. 
+The result of this work can be useful as instrumentation for Red Teaming or Physical Intrusion activities to test a company's security.
 
 ## Disclaimer
 >**Please note that this project is strictly meant for educational purposes. The developers cannot be held accountable for any improper use of the code or the information provided in this repository by third parties.**
 
 ## Why Arduino Leonardo?
 Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="500" />
+
 Arduino Leonardo Nano, for example, is well suited for this project because of the following features:
 * can be used as [HID](https://en.wikipedia.org/wiki/Human_interface_device) - Human Interface Device and supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
 * is **extremely small**, can be hidden easily in a SSD or NVMe case (for fake external hard drive)
 * is also available in **USB Type-C** version, which is more common on next-generation mass storage devices
 * is **really inexpensive**, can be found for a few euros on online stores
-
-![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png?raw=true)
 
 ## Configuration - TODO
 The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via [Arduino IDE](https://www.arduino.cc/en/software).
