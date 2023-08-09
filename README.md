@@ -13,7 +13,11 @@ This project requires:
 
 ## Why Arduino Leonardo?
 Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="500" />
+
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="200" />
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/case.png" width="150" />
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino+case.png" width="300" />
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/badarduino.png" width="300" />
 
 Arduino Leonardo Nano, for example, is well suited for this project because of the following features:
 * is a **Human Interface Device** ([HID](https://en.wikipedia.org/wiki/Human_interface_device)) which supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
