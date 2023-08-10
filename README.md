@@ -1,10 +1,10 @@
 # Table of contents
-1. [Intro to BadArduino Project](https://github.com/Astaruf/BadArduino/edit/main/README.md#intro-to-badarduino-project)
-2. [Requirements](https://github.com/Astaruf/BadArduino/edit/main/README.md#requirements)
-3. [Configuration](https://github.com/Astaruf/BadArduino/edit/main/README.md#configuration)
-4. [Case Setup](https://github.com/Astaruf/BadArduino/edit/main/README.md#case-setup)
-5. [Use Case](https://github.com/Astaruf/BadArduino/edit/main/README.md#use-case)
-6. [Mitigations](https://github.com/Astaruf/BadArduino/edit/main/README.md#mitigations)
+1. [Intro to BadArduino Project](https://github.com/Astaruf/BadArduino/tree/main#intro-to-badarduino-project)
+2. [Requirements](https://github.com/Astaruf/BadArduino/tree/main/README.md#requirements)
+3. [Configuration](https://github.com/Astaruf/BadArduino/tree/main/README.md#configuration)
+4. [Case Setup](https://github.com/Astaruf/BadArduino/tree/main/README.md#case-setup)
+5. [Use Case](https://github.com/Astaruf/BadArduino/tree/main/README.md#use-case)
+6. [Mitigations](https://github.com/Astaruf/BadArduino/tree/main/README.md#mitigations)
 
 # Intro to BadArduino Project
 This project aims to transform an [Arduino](https://www.arduino.cc/) board into a [BadUSB](https://en.wikipedia.org/wiki/BadUSB) to demonstrate how cyber criminals use this hardware to conduct [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) attacks to compromise victims' devices.
