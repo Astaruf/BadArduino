@@ -1,3 +1,11 @@
+# Table of contents
+1. [Intro to BadArduino Project](https://github.com/Astaruf/BadArduino/edit/main/README.md#intro-to-badarduino-project)
+2. [Requirements](https://github.com/Astaruf/BadArduino/edit/main/README.md#requirements)
+3. [Configuration](https://github.com/Astaruf/BadArduino/edit/main/README.md#configuration)
+4. [Case Setup](https://github.com/Astaruf/BadArduino/edit/main/README.md#case-setup)
+5. [Use Case](https://github.com/Astaruf/BadArduino/edit/main/README.md#use-case)
+6. [Mitigations](https://github.com/Astaruf/BadArduino/edit/main/README.md#mitigations)
+
 # Intro to BadArduino Project
 This project aims to transform an [Arduino](https://www.arduino.cc/) board into a [BadUSB](https://en.wikipedia.org/wiki/BadUSB) to demonstrate how cyber criminals use this hardware to conduct [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) attacks to compromise victims' devices.
 The result of this work can be useful as instrumentation for [Red Team](https://en.wikipedia.org/wiki/Red_team) operations to test a company's security.
@@ -22,14 +30,14 @@ Arduino Leonardo Nano, for example, is well suited for this project because of t
 
 Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
 
-# TODO - Software Setup
+# Configuration
 As is well known, the types of actions that Arduino can perform when connected to a host are innumerable. 
 For demonstration purposes only, we are going to load the **example.ino** skatch that performs the following actions:
 1. runs PowerShell in Windows (with or without [UAC](https://en.wikipedia.org/wiki/User_Account_Control) bypass).
 2. captures the SSIDs and passwords of known Wi-Fi networks saved in Windows
 3. exfiltrates the data to a server controlled by the attacker
 
-# TODO - Hardware Setup
+# Case Setup
 Arduino Leonardo Nano can be easily hidden into an external hard disk case. For example, SanDisk made a great job in terms of design and the semplicity of teardown makes the game easier:
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/teardown.gif?raw=true)
@@ -58,7 +66,8 @@ An unsuspecting user finds the USB flash drive and, believing he has found a los
 
 Generally, attackers tend to use the malicious code as an initial access or dropper of other code doing so silently, bypassing any antivirus, trying to scale privileges or gain persistence within the system. The actions that a BadUSB can perform are innumerable, the only limits are imagination and coding skills.
 
-# Mitigations: Never Rely on Appearances
+# Mitigations
+## Never Rely on Appearances
 In 2023, it might be surprising that some people still fall for connecting a sketchy USB drive to their computer. However, the truth is, despite fancy tech, people still make mistakes. But there's more to it. The danger gets sneakier with the ability to hide stuff like Arduino, making it seem cooler than a regular USB drive.
 
 Imagine this: you find an outside hard drive cover, maybe a slick SanDisk one, looking all innocent and tempting. In a world where looks and size can trick you, who wouldn't want to take such a cool "tech treasure" home? Here's the catch: there's an Arduino inside that seems harmless. Once at home, the appeal could get too much, and the urge to plug it into your device could be stronger than thinking twice.
