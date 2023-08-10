@@ -1,6 +1,6 @@
 # Intro to BadArduino Project
-This project aims to transform an Arduino board into a "BadUSB" to demonstrate how cyber criminals use this hardware to conduct Social Engineering attacks to compromise victims' devices.
-The result of this work can be useful as instrumentation for Red Teaming or Physical Intrusion activities to test a company's security.
+This project aims to transform an [Arduino](https://www.arduino.cc/) board into a [BadUSB](https://en.wikipedia.org/wiki/BadUSB) to demonstrate how cyber criminals use this hardware to conduct [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) attacks to compromise victims' devices.
+The result of this work can be useful as instrumentation for [Red Team](https://en.wikipedia.org/wiki/Red_team) operations to test a company's security.
 
 >**Please note that this project is strictly meant for educational purposes. The developers cannot be held accountable for any improper use of the code or the information provided in this repository by third parties.**
 
@@ -38,7 +38,7 @@ The result is great, Arduino fits like a glove in the chosen hard drive shell.
 
 # Use Case
 ## Baiting: Social Engineering and BadUSB Attack
-Baiting is a [Social Engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) cyber attack that exploits people's natural curiosity to lure them into digital traps. In a BadUSB attack, cybercriminals use compromised or fake memory devices, such as USB flash drives, that are left in strategic locations to lure victims. Once a hapless person finds and inserts the infected flash drive into their device, the malicious code contained within is activated, allowing them to gain full control of the device itself and its data.
+Baiting is a Social Engineering cyber attack that exploits people's natural curiosity to lure them into digital traps. In a BadUSB attack, cybercriminals use compromised or fake memory devices, such as USB flash drives, that are left in strategic locations to lure victims. Once a hapless person finds and inserts the infected flash drive into their device, the malicious code contained within is activated, allowing them to gain full control of the device itself and its data.
 
 ### 1: Cast The Bait
 Many of you will remember Darlene Alderson, Elliot's younger sister in the famous Mr. Robot series, a malware coder and member of the hacker group fsociety. Although it is only a series, it still gives us a glimpse of how such an attack might be conducted.
