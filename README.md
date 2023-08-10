@@ -6,24 +6,24 @@ The result of this work can be useful as instrumentation for [Red Team](https://
 
 # Requirements
 This project requires:
-* an Arduino Leonardo Nano
-* an external hard drive case (SanDisk SDSSDE61)
-* a USB cable
-* Arduino IDE
+* an **Arduino** - any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
+* a **case** - it is possible to use the case of a portable external hard drive, such as the one used below, inside which to hide Arduino.
+* a **USB-C/A cable** - useful for configuring Arduino by uploading skatches
+* **Arduino IDE** - for writing code and uploading skatches to Arduino
 
 ## Why Arduino Leonardo?
-Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
-
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="200"/>
-
 Arduino Leonardo Nano, for example, is well suited for this project because of the following features:
 * is a **Human Interface Device** ([HID](https://en.wikipedia.org/wiki/Human_interface_device)) which supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
 * is **extremely small**, can be hidden easily in a SSD or NVMe case (for fake external hard drive)
 * is also available in **USB Type-C** version, which is more common on next-generation mass storage devices
 * is **really inexpensive**, can be found for a few euros on online stores
 
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="200"/>
+
+Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
+
 # TODO - Software Setup
-The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via [Arduino IDE](https://www.arduino.cc/en/software).
+The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via Arduino IDE.
 
 # TODO - Hardware Setup
 Arduino Leonardo Nano can be easily hidden into an external hard disk case. For example, SanDisk made a great job in terms of design and the semplicity of teardown makes the game easier:
