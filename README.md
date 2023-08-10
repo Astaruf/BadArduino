@@ -14,10 +14,7 @@ This project requires:
 ## Why Arduino Leonardo?
 Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
 
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="200" />
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/case.png" width="150" />
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino+case.png" width="300" />
-<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/badarduino.png" width="300" />
+<img src="https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/arduino.png" width="200"/>
 
 Arduino Leonardo Nano, for example, is well suited for this project because of the following features:
 * is a **Human Interface Device** ([HID](https://en.wikipedia.org/wiki/Human_interface_device)) which supports [Keyboard](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/) Library
@@ -32,6 +29,12 @@ The keyboard functions enable boards to send keystrokes to an attached computer 
 Arduino Leonardo Nano can be easily hidden into an external hard disk case. For example, SanDisk made a great job in terms of design and the semplicity of teardown makes the game easier:
 
 ![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/teardown.gif?raw=true)
+
+Once the internal components are removed, it is necessary to house the Arduino inside the case and secure it so that the USB-C port aligns properly with the slot in the case.
+
+![](https://github.com/Astaruf/badusb-leonarduino/blob/main/demo/badarduino-clip-16.9.gif?raw=true)
+
+The result is great, Arduino fits like a glove in the chosen hard drive shell.
 
 # Use Case
 ## Baiting: Social Engineering and BadUSB Attack
