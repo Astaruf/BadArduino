@@ -23,7 +23,11 @@ Arduino Leonardo Nano, for example, is well suited for this project because of t
 Any board that mounts the [ATmega32u4](https://www.microchip.com/en-us/product/ATmega32U4) chip, which supports the use of the Keyboard library, can be used.
 
 # TODO - Software Setup
-The keyboard functions enable boards to send keystrokes to an attached computer through their micro's native USB port. The code is written in C++ and skatches can be easily uploaded to Arduino via Arduino IDE.
+As is well known, the types of actions that Arduino can perform when connected to a host are innumerable. 
+For demonstration purposes only, we are going to load the **example.ino** skatch that performs the following actions:
+1. runs PowerShell in Windows (with or without [UAC](https://en.wikipedia.org/wiki/User_Account_Control) bypass).
+2. captures the SSIDs and passwords of known Wi-Fi networks saved in Windows
+3. exfiltrates the data to a server controlled by the attacker
 
 # TODO - Hardware Setup
 Arduino Leonardo Nano can be easily hidden into an external hard disk case. For example, SanDisk made a great job in terms of design and the semplicity of teardown makes the game easier:
