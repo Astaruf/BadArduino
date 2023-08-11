@@ -73,3 +73,7 @@ In 2023, it might be surprising that some people still fall for connecting a ske
 Imagine this: you find an outside hard drive cover, maybe a slick SanDisk one, looking all innocent and tempting. In a world where looks and size can trick you, who wouldn't want to take such a cool "tech treasure" home? Here's the catch: there's an Arduino inside that seems harmless. Once at home, the appeal could get too much, and the urge to plug it into your device could be stronger than thinking twice.
 
 I dare anyone not to feel curious about this. It's tough to say no, even when it seems like tech has gotten super smart. The lesson is that, even with smarts and being careful, human curiosity can still beat everything. It's a reminder that the digital world, while getting better fast, can't escape human mistakes and how things look.
+
+## bInterfaceClass, IdProduct, IdVendor
+https://lukasharris.com/2021/02/05/blocking-usb-rubber-ducky-attacks/
+https://github.com/pmsosa/duckhunt
